@@ -5,7 +5,7 @@
                 <span>
                     <?php the_field('entrar_contato', 'options'); ?>
                 </span>    
-                <a class="btn btn-warning" href="http://wa.me/+5535998138974">
+                <a target="_blank" class="btn btn-warning" href="http://wa.me/+5535998138974">
                     Entrar em contato
                 </a>
             </div>
