@@ -1,0 +1,14 @@
+wp-admin
+wp-content/upgrade
+wp-content/languages
+wp-content/cache
+wp-content/w3tc-config
+wp-content/themes/twentytwentythree
+wp-content/plugins/w3-total-cache
+wp-includes
+*.php
+.htaccess
+.ftpquota
+composer.lock
+error_log
+readme.html
