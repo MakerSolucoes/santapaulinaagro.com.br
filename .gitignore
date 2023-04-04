@@ -1,5 +1,7 @@
 wp-admin
 wp-content/*
+!wp-content/themes/santapaulina
+
 wp-includes
 *.php
 .htaccess
