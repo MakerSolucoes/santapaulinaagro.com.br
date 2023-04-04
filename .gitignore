@@ -1,11 +1,27 @@
-wp-admin
-wp-content/*
-!wp-content/themes/santapaulina
+### ignore all WordPress folders ###
+/wp-admin
+/wp-includes
+/wp-content/languages
+/wp-content/w3tc-config
+/wp-content/plugins/*
+/wp-content/uploads
+/wp-content/cache
+/wp-content/index.php
 
-wp-includes
-*.php
+
+### npm e composer ###
+node_modules
+.cache
+/vendor
+
+
+# Ignore other files and folders
+wp-admin/
+wp-includes/
+/*.php
 .htaccess
 .ftpquota
 composer.lock
 error_log
 readme.html
+!/wp-content/themes/santapaulina
