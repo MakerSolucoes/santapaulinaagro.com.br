@@ -18,6 +18,7 @@ node_modules
 # Ignore other files and folders
 wp-admin/
 wp-includes/
+/*.php
 .htaccess
 .ftpquota
 composer.lock
