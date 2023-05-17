@@ -25,5 +25,4 @@ composer.lock
 error_log
 readme.html
 !/wp-content/themes/santapaulina
-!/wp-content/plugins/*.php
 
