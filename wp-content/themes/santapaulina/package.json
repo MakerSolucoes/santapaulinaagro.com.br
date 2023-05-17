@@ -7,6 +7,7 @@
     "bootstrap": "^5.2.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.1",
-    "js-circle-progress": "^0.2.4"
+    "js-circle-progress": "^0.2.4",
+    "owl.carousel": "^2.3.4"
   }
 }
