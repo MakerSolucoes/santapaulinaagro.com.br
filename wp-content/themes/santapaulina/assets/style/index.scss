@@ -344,12 +344,18 @@ body {
     }
     #galeria{
         padding: 2rem 0;
-        overflow: scroll;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+
         background-color: $black;
-        &::-webkit-scrollbar {
-            display: none;
+        
+        .galeria-navigation {
+            width: 300px;
+            overflow: auto;
+            white-space: nowrap;
+        }
+        .galeria-navigation img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
         }
         h2{
             padding: 2rem 0;
