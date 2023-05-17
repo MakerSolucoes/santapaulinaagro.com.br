@@ -18,9 +18,12 @@ node_modules
 # Ignore other files and folders
 wp-admin/
 wp-includes/
+/*.php
 .htaccess
 .ftpquota
 composer.lock
 error_log
 readme.html
 !/wp-content/themes/santapaulina
+!/wp-content/plugins/*.php
+
