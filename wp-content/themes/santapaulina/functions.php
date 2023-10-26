@@ -3,7 +3,6 @@
 function enqueue() {
     wp_enqueue_style('theme-css', get_template_directory_uri().'/assets/style/index.css', '', false);
     wp_enqueue_style('font-awesome-css', get_template_directory_uri().'/node_modules/font-awesome/css/font-awesome.css', '', false);
-    
     wp_enqueue_script('jquery-js', get_template_directory_uri().'/node_modules/jquery/dist/jquery.js', '', '', true );
     wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/node_modules/bootstrap/dist/js/bootstrap.js', '', '', true );
     wp_enqueue_script('slick-js', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js', '', '', true );
